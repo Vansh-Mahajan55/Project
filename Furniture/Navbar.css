@@ -33,6 +33,10 @@
     color:white;
     text-transform: uppercase; 
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .Navbar ul li::after{
     content:'';
     height:3px;
