@@ -18,25 +18,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .navbar{
     width:85%;
     margin:auto;
     padding:20px 0;
+    align-items: center;
+}
+.searchbar{
+    position: relative;
+
 }
 .searchbar input{
     border-radius: 20px;
     padding:10px 30px 10px 10px;
     border-style: none;
-    width: fit-content;
 }
 .searchbar .bx-search-alt-2{
-    position:relative;
+    position:absolute;
     color:black;
+    top:10px;
+    right: 6px;
     font-size: large;
-    top:3px;
-    right:30px;
+
 }
 .navbar ul li{
     list-style: none;
@@ -89,6 +93,7 @@
     margin:20px 10px;
     transition:0.3s;
     cursor:pointer;
+    color:#fff;
 }
 .Card img{
     width:250px;
